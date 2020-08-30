@@ -25,7 +25,10 @@ function runTimer() {
 }
 
 startButton.onclick = function () {
+<<<<<<< HEAD
     startButton.innerHTML= "Resume";
+=======
+>>>>>>> 22f053c93f90967ac7bb1dc185d27c0aaee5bf6c
     clearInterval(interval);
     interval = setInterval(runTimer,10);
 }
@@ -40,4 +43,7 @@ resetButton.onclick = function () {
     timer = [0,0,0,0];
     theTimer.innerHTML =  "00:00.00";
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 22f053c93f90967ac7bb1dc185d27c0aaee5bf6c
