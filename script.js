@@ -34,6 +34,6 @@ stopButton.onclick = function () {
 
 resetButton.onclick = function () {
     clearInterval(interval);
-    // timer = [0,0,0,0];
+    timer = [0,0,0,0];
     theTimer.innerHTML =  "00:00.00";
 }
