@@ -11,8 +11,8 @@ p {
 button {
     border: 1px solid black;
     border-radius: 4px;
-    width: 200px;
-    font-size: 30px;
+    width: 150px;
+    font-size: 25px;
     padding: 20px;
     cursor: pointer;
     margin: 10px;

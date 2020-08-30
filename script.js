@@ -4,6 +4,7 @@ var resetButton = document.querySelector(".reset-btn");
 var theTimer = document.querySelector("#timer");
 
 var timer = [0,0,0,0];
+var interval;
 
 function leadingZero(time) {
     if (time<=9) {
@@ -24,7 +25,8 @@ function runTimer() {
 }
 
 startButton.onclick = function () {
-    // clearInterval(interval);
+    startButton.innerHTML= "Resume";
+    clearInterval(interval);
     interval = setInterval(runTimer,10);
 }
 
@@ -33,7 +35,9 @@ stopButton.onclick = function () {
 }
 
 resetButton.onclick = function () {
+    startButton.innerHTML= "Start";
     clearInterval(interval);
-    // timer = [0,0,0,0];
+    timer = [0,0,0,0];
     theTimer.innerHTML =  "00:00.00";
 }
+
