@@ -27,3 +27,13 @@ startButton.onclick = function () {
     // clearInterval(interval);
     interval = setInterval(runTimer,10);
 }
+
+stopButton.onclick = function () {
+    clearInterval(interval);
+}
+
+resetButton.onclick = function () {
+    clearInterval(interval);
+    // timer = [0,0,0,0];
+    theTimer.innerHTML =  "00:00.00";
+}
