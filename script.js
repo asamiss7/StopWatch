@@ -24,7 +24,7 @@ function runTimer() {
 }
 
 startButton.onclick = function () {
-    // clearInterval(interval);
+    clearInterval(interval);
     interval = setInterval(runTimer,10);
 }
 
