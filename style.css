@@ -1,0 +1,27 @@
+body {
+    background-color: lightcyan;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 60px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 200px;
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color:#a0bff2;
+}
+
+button:active {
+    font-weight: bold;
+}
