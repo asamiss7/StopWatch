@@ -42,7 +42,7 @@ resetButton.onclick = function () {
     clearInterval(interval);
     timer = [0,0,0,0];
     theTimer.innerHTML =  "00:00.00";
-    i=0;
+    i=1;
     // lap.remove();
     var clearlap = document.querySelector('#notelap');
     // clearlap.innerHTML = "";
