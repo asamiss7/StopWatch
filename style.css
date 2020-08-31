@@ -25,3 +25,8 @@ button:hover {
 button:active {
     font-weight: bold;
 }
+
+#notelap {
+    padding: 10px;
+    font-size: 30px;
+}
