@@ -2,4 +2,4 @@
 a simple Stopwatch using javascript
 
 # url to see the demo
-asamiss7.github.io/stopwatch/
+https://asamiss7.github.io/StopWatch/
