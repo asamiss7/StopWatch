@@ -43,6 +43,11 @@ resetButton.onclick = function () {
     timer = [0,0,0,0];
     theTimer.innerHTML =  "00:00.00";
     i=0;
+    // lap.remove();
+    var clearlap = document.querySelector('#notelap');
+    // clearlap.innerHTML = "";
+    document.getElementById("main").removeChild(clearlap);
+    
 }
 
 // function to show the lapvalues
@@ -57,5 +62,6 @@ lapButton.onclick = function () {
 
     document.getElementById("main").appendChild(lap);
 
+    // document.getElementById("main").removeChild(lap);
 }
 
