@@ -1,8 +1,8 @@
-var startButton = document.querySelector(".start-btn");
-var stopButton = document.querySelector(".stop-btn");
-var resetButton = document.querySelector(".reset-btn");
-var lapButton = document.querySelector(".lap-btn");
-var theTimer = document.querySelector("#timer");
+const startButton = document.querySelector(".start-btn");
+const stopButton = document.querySelector(".stop-btn");
+const resetButton = document.querySelector(".reset-btn");
+const lapButton = document.querySelector(".lap-btn");
+const theTimer = document.querySelector("#timer");
 
 var timer = [0,0,0,0];
 var interval;
